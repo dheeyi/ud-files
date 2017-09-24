@@ -1,0 +1,32 @@
+{
+    "name": "dheeyi/ud-files",
+    "description": "Handling Files. Uploading and downloading files in PHP",
+    "keywords": ["microframework", "files", "download", "upload", "PHP"],
+    "homepage": "https://github.com/dheeyi/ud-files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dheeyi William",
+            "email": "dheeyi@gmail.com",
+            "homepage": "https://github.com/dheeyi/"
+        }
+    ],
+    "version": "dev-master",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "UDFiles\\": "src/UDFiles/"
+        },
+        "classmap": [
+            "classes"
+        ]
+    },
+    "config": {
+        "process-timeout" : 0
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public public/index.php"
+    }
+}
