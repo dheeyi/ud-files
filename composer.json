@@ -1,6 +1,6 @@
 {
     "name": "dheeyi/ud-files",
-    "description": "Handling Files. Uploading and downloading files in PHP",
+    "description": "Handling Files. Multiple file upload with PHP and MySQL - Uploading and Downloading",
     "keywords": ["microframework", "files", "download", "upload", "PHP"],
     "homepage": "https://github.com/dheeyi/ud-files",
     "license": "MIT",
